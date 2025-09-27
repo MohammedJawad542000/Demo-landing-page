@@ -3,25 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fashion Hub - Online Clothing Store</title>
+    <title>Fashion Store - Kids & Men</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
         }
 
         header {
             background-color: #ff6f61;
             color: white;
-            padding: 20px 0;
             text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
+            padding: 20px 0;
         }
 
         nav {
@@ -54,7 +48,7 @@
             text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
         }
 
-        .hero h2 {
+        .hero h1 {
             font-size: 3em;
             background-color: rgba(0,0,0,0.3);
             padding: 20px;
@@ -68,8 +62,7 @@
 
         .section h2 {
             font-size: 2em;
-            margin-bottom: 20px;
-            color: #333;
+            margin-bottom: 30px;
         }
 
         .products {
@@ -80,7 +73,7 @@
         }
 
         .product-card {
-            background-color: white;
+            background: white;
             border-radius: 10px;
             overflow: hidden;
             width: 250px;
@@ -103,14 +96,14 @@
         }
 
         .product-card p {
-            color: #777;
             margin: 0 10px 10px 10px;
+            color: #555;
         }
 
         .product-card button {
             background-color: #ff6f61;
-            color: white;
             border: none;
+            color: white;
             padding: 10px;
             width: 100%;
             cursor: pointer;
@@ -126,7 +119,6 @@
             color: white;
             text-align: center;
             padding: 20px 0;
-            margin-top: 50px;
         }
 
         @media(max-width:768px){
@@ -139,34 +131,33 @@
 </head>
 <body>
     <header>
-        <h1>Fashion Hub</h1>
-        <p>Trendy Clothes for Kids, Boys, and Men</p>
+        <h1>Fashion Store</h1>
+        <p>Trendy Clothes for Kids, Boys & Men</p>
     </header>
 
     <nav>
         <a href="#kids">Kids</a>
         <a href="#boys">Boys</a>
         <a href="#men">Men</a>
-        <a href="#contact">Contact</a>
     </nav>
 
-    <section class="hero">
-        <h2>Style for Every Age</h2>
-    </section>
+    <div class="hero">
+        <h1>Style for Every Age</h1>
+    </div>
 
     <section class="section" id="kids">
         <h2>Kids Collection</h2>
         <div class="products">
             <div class="product-card">
-                <img src="https://images.pexels.com/photos/3991617/pexels-photo-3991617.jpeg" alt="Kids Clothing 1">
+                <img src="https://images.pexels.com/photos/3991617/pexels-photo-3991617.jpeg" alt="Kids Outfit">
                 <h3>Casual Kids Outfit</h3>
-                <p>Comfortable and trendy for your little ones.</p>
+                <p>Comfortable and trendy clothes for kids.</p>
                 <button>Shop Now</button>
             </div>
             <div class="product-card">
-                <img src="https://images.pexels.com/photos/1224932/pexels-photo-1224932.jpeg" alt="Kids Clothing 2">
+                <img src="https://images.pexels.com/photos/1224932/pexels-photo-1224932.jpeg" alt="Kids Summer">
                 <h3>Summer Kids Set</h3>
-                <p>Perfect summer outfit for kids.</p>
+                <p>Perfect summer outfit for little ones.</p>
                 <button>Shop Now</button>
             </div>
         </div>
@@ -176,13 +167,13 @@
         <h2>Boys Collection</h2>
         <div class="products">
             <div class="product-card">
-                <img src="https://images.pexels.com/photos/935985/pexels-photo-935985.jpeg" alt="Boys Clothing 1">
+                <img src="https://images.pexels.com/photos/935985/pexels-photo-935985.jpeg" alt="Boys Outfit">
                 <h3>Casual Boys Outfit</h3>
                 <p>Stylish and comfy for everyday wear.</p>
                 <button>Shop Now</button>
             </div>
             <div class="product-card">
-                <img src="https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg" alt="Boys Clothing 2">
+                <img src="https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg" alt="Boys Party Outfit">
                 <h3>Party Boys Outfit</h3>
                 <p>Look cool at any party.</p>
                 <button>Shop Now</button>
@@ -194,23 +185,24 @@
         <h2>Men Collection</h2>
         <div class="products">
             <div class="product-card">
-                <img src="https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg" alt="Men Clothing 1">
-                <h3>Formal Men Suit</h3>
-                <p>Look sharp at work or events.</p>
+                <img src="https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg" alt="Men Outfit">
+                <h3>Casual Men Outfit</h3>
+                <p>Comfortable yet stylish for everyday wear.</p>
                 <button>Shop Now</button>
             </div>
             <div class="product-card">
-                <img src="https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg" alt="Men Clothing 2">
-                <h3>Casual Men Outfit</h3>
-                <p>Comfortable yet stylish for everyday wear.</p>
+                <img src="https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg" alt="Formal Men Outfit">
+                <h3>Formal Men Suit</h3>
+                <p>Look sharp at work or events.</p>
                 <button>Shop Now</button>
             </div>
         </div>
     </section>
 
-    <footer id="contact">
-        <p>&copy; 2025 Fashion Hub. All rights reserved.</p>
-        <p>Contact us: info@fashionhub.com</p>
+    <footer>
+        <p>&copy; 2025 Fashion Store. All Rights Reserved.</p>
+        <p>Contact: info@fashionstore.com</p>
     </footer>
 </body>
 </html>
+
